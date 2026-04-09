@@ -1,0 +1,5 @@
+{
+  "name": "Fraud Detection System",
+  "description": "A Python Streamlit application for real-time fraud detection using XGBoost.",
+  "requestFramePermissions": []
+}
