@@ -1,8 +1,8 @@
 import unittest
 import pandas as pd
 from utils.data_generator import generate_synthetic_data
-from models.feature_engineering import FeatureEngineer
-from models.fraud_detector import FraudDetector
+from feature_engineering import FeatureEngineer
+from fraud_detector import FraudDetector
 
 class TestFraudSystem(unittest.TestCase):
     def setUp(self):
