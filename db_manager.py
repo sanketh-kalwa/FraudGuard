@@ -1,6 +1,6 @@
 import sqlite3
 import pandas as pd
-from config.settings import DB_PATH
+from settings import DB_PATH
 import os
 
 class DBManager:
