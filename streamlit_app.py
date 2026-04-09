@@ -6,9 +6,9 @@ import plotly.graph_objects as go
 import time
 from datetime import datetime
 
-from database.db_manager import DBManager
-from models.fraud_detector import FraudDetector
-from utils.data_generator import generate_synthetic_data
+from db_manager import DBManager
+from fraud_detector import FraudDetector
+from data_generator import generate_synthetic_data
 
 st.set_page_config(page_title="Fraud Detection System", page_icon="🛡️", layout="wide")
 
